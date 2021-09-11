@@ -32,6 +32,7 @@
             </template>
           </el-submenu>
           <el-menu-item v-else :key="item.path" :index="item.path">
+            <!-- <i :class="item.menuIcon" /> -->
             <i :class="item.menuIcon"></i>
             <span slot="title">{{ item.label }}</span>
           </el-menu-item>
